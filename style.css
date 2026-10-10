@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #e7d6ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.foto {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f3a6c8;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #d94f87;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.jurusan {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.deskripsi {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.links a {
+    text-decoration: none;
+    background-color: #f28bb5;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #d94f87;
+    transform: scale(1.03);
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #999;
+}
